@@ -199,7 +199,7 @@ struct bbr {
 #define SmBBR_SCALE 20
 #define SmBBR_UNIT (1 << SmBBR_SCALE)
 static const u32 SmBBR_two_recitified_lwbw_ratio = BBR_UNIT / 10;
-static const u32 SmBBR_large_loss_ratio = BBR_UNIT / 10;
+static const u32 SmBBR_large_loss_ratio = BBR_UNIT / 5;
 static const u32 SmBBR_increase_pacing_ratio = BBR_UNIT / 5;
 static const u32 SmBBR_decrease_pacing_ratio = BBR_UNIT / 6;
 
